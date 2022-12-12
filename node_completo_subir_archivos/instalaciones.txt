@@ -1,0 +1,23 @@
+Opcional Intalar nodemon
+
+
+Intalar dotenv
+Intalar express
+Instalar mongoose
+Intalar cors-- es un middleware
+cors se usa: this.app.use( cors() )
+para usar el body se usa: this.app.use( express.json() )
+    
+Instalar bcryptjs para la encriptacion de contraseñas
+Instalar express-validator para validar correos
+Instalar jsonwebtoken para generar tokens
+
+Instalar npm install google-auth-library --save --para la autenticacion con google
+
+Instalar npm i express-fileupload para la carga de archivos y mirar la documentacion
+donde dice -- Using useTempFile Options -- es el middleware que hay que implementar
+en el Server
+
+Instalar npm i uuid para crear identificadores unicos
+
+npm i cloudinary para subir las imagenes

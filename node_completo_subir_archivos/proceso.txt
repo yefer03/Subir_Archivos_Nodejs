@@ -1,0 +1,30 @@
+Carpeta models
+Documento server.js para montar el servidor
+Se crean los modelos que deben seguir los objetos que van a la base de datos
+
+Carpeta public
+Se crea el html y se hace sube en el webserver en los middlewares
+
+Carpeta routes
+Se crea el archivo
+se extrae Router de express
+
+Carpeta controllers
+Se hacen funciones para cada una de las rutas y se exportan
+se extrae de express el response para tener las recomendaciones de vscode para la response
+
+Carpeta database
+Se crea el config.js
+
+Carpeta middlewares
+para las validaciones que se repiten validaciones
+funcionan con req, res y next, el ultimo e llama si la validacion pasa
+el middleware se llama despues de los checks en las rutas   
+
+
+Carpeta helpers
+Para agregar validaciones personalizadas que luego se colocan
+en las rutas con los custom check
+
+Para proteger rutas se crea un middleware
+Los tokens de acceso normalmente van en los headers
